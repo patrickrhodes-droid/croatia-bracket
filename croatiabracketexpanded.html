@@ -328,14 +328,14 @@ body{
   background:var(--surface);
 }
 .round-popup{
-  position:absolute;
+  position:fixed;
   inset:0;
   display:none;
   align-items:center;
   justify-content:center;
   padding:18px;
   background:rgba(10,14,20,.72);
-  z-index:5;
+  z-index:15;
 }
 .round-popup.show{display:flex}
 .round-pop-card{
@@ -379,14 +379,14 @@ body{
   text-overflow:ellipsis;
 }
 .modal{
-  position:absolute;
+  position:fixed;
   inset:0;
   display:none;
   align-items:center;
   justify-content:center;
   padding:18px;
   background:rgba(10,14,20,.76);
-  z-index:8;
+  z-index:16;
 }
 .modal.show{display:flex}
 .modal-card{
